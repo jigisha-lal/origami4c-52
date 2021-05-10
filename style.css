@@ -1,0 +1,55 @@
+.grid{
+    background-color:rgb(243, 73, 73);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly ;
+}
+
+.header{
+    background-color:rgb(247, 14, 49);
+    display:flex;
+    justify-content: center ;
+    
+}
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   background-color:#000000; 
+   padding: 15px;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+
+body{background-color:rgb(255,102,153) ;
+    margin: 0px;
+}
+            h1{text-align:center;color: yellow;font-family:Forte;}
+            h2{text-align:left;color: rgb(0, 255, 234);font-family:Forte;}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}            
+
+.item{
+
+    border-radius:50px;
+    background-color: burlywood;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(231, 161, 222);
+}
+
+.item:hover{
+     transform: scale(1.2);
+}
